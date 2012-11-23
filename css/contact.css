@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ▼お問合せフォームCSS */
+table#contact {
+	border-collapse:collapse;margin-left:20px;
+	font-size:1em;
+}
+table#contact th {
+	width:150px; text-align:center;
+	font-weight:normal;
+	border-bottom:1px #6d97a1 dotted;
+	padding:10px 0 10px 10px;
+}
+table#contact td {
+		border-bottom:1px #6d97a1 dotted;
+	padding:10px 10px 10px 0;
+}
+table#contact input {
+	border:1px #666 solid;
+	color:#000;
+	font-size:1.1em;
+	padding:2px;
+}
+table#contact textarea {
+		border:1px #666 solid;
+	color:#000;
+	padding:2px;
+}
+table#contact th span {
+	color:#F00;
+}
+p#con_submit {
+	text-align:center; margin-bottom:30px;
+}

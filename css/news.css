@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ▼新着情報 */
+ul.newsarea {
+	margin:0;
+	list-style-type:none;
+	font-size:0.9em;
+	line-height:1.4;
+}
+ul.newsarea li {
+	background:url(../images/line_left.gif) repeat-x 0 100%;
+	padding:7px 10px;
+}
+ul.newsarea .date {
+	display:block;
+	float:left;
+	width:107px;
+}
+.infoarea {
+	display:block;
+	float:right;
+	width:551px;
+}
+.info {
+	display:block;
+	padding-left:15px;
+}
+ul.newsarea .blet {
+	background-position:0 0.3em;
+	background-repeat:no-repeat;
+	display:block;
+	float:left;
+	list-style-type:none;
+	width:14px;
+}
+.arrow1 {
+background-image:url(../images/arrow1.gif)	
+}
+.arrow2 {
+background-image:url(../images/arrow2.gif)	
+}
+.arrow3 {
+background-image:url(../images/arrow3.gif)	
+}.arrow4 {
+background-image:url(../images/arrow4.gif)	
+}.arrow5 {
+background-image:url(../images/arrow5.gif)	
+}.arrow6 {
+background-image:url(../images/arrow6.gif)	
+}.arrow7 {
+background-image:url(../images/arrow7.gif)	
+}

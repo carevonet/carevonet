@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* indexを含む全ページ共通スタイルシート */
+
+/* ▼スタイルシートリセット */
+* {
+	margin:0;
+	padding:0;
+}
+a img {
+	border:0;
+}
+body {
+	background: #FFF;
+	margin: 0; /* 複数の異なるブラウザの初期設定値に対応するため、body エレメントのマージンと余白を 0 にすることをお勧めします */
+	padding: 0;
+	text-align: center; /* これにより、IE 5* ブラウザではコンテナが中央揃えになります。そして、テキストは、#container セレクタの初期設定である左揃えに設定されます */
+	color: #000000;
+	background-image:url(../images/dotted_bg.png);
+	background-repeat:repeat-x;
+}
+/* ▼クリアーフィックス */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-table;
+	min-height: 1%;
+}
+/* Hides from IE-mac */
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+
+/* ▼リンク設定 */
+a {
+	text-decoration:none;
+	color:#0031a1;
+}
+a:hover {
+	color:#00F;
+	text-decoration:underline;
+}
+
+/* ▼画像置換 */
+a.roll {
+	height:0;
+	padding-top:96px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	margin:0;
+	width:200px;
+	display:block;
+}
+a.roll:hover {
+	background-position:0 -96px;
+}
+/* ▼箱 */
+#container {
+	width: 940px;
+	background: #FFFFFF;
+	margin: 0 auto 0px; /* 自動マージン（幅と連動）により、ページが中央揃えになります */
+	text-align: left; /* この設定は body エレメントの text-align: center より優先されます。 */
+	padding:0 10px 0px;
+}
+/* ▼ヘッダー */
+#header {
+	background: #FFF;
+}
+div#logo_zone {
+	float:left;
+	width:337px;
+	background:url(../images/main_line_left.gif) no-repeat bottom;
+	height:121px;
+}
+div#logo_zone img {
+	padding:10px 0 10px 0;
+}
+div#logo_zone h1 {
+	font-size:0.7em;
+	margin:0 10px;
+	color:#777;
+	font-weight: normal;
+}
+/* ▼メインコンテンツ */
+#maincontents {
+	background:url(../images/line2.gif) no-repeat bottom;
+	padding-top: 10px;
+	margin-top: 6px;
+}
+.clearfloat { /* このクラスは、div またはブレークエレメントに適用される必要があり、また、フローティングエレメントが完全に含まれているコンテナの末尾の直前にある最後のエレメントである必要があります */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+/* ▼グローバルナビゲーション */
+#menu1 {
+	float:right;
+	width:603px;
+}
+#menu1 li {
+	display:inline;
+	list-style-type:none;
+}
+#menu1 a {
+	float: left;
+	height: 0;
+	margin:0;
+	padding-top: 121px;
+	overflow: hidden;
+	background-image:url(../images/nav.gif);
+	background-repeat:no-repeat;
+}
+#menu1 #top_nav a {
+	width:101px;
+	background-position:0 top;
+}
+#menu1 #top_nav a:hover {
+	background-position:0 -121px;
+}
+#menu1 #new_nav a {
+	width:100px;
+	background-position:-101px top;
+}
+#menu1 #new_nav a:hover {
+	background-position:-101px -121px;
+}
+#menu1 #jig_nav a {
+	width:100px;
+	background-position:-201px top;
+}
+#menu1 #jig_nav a:hover {
+	background-position:-201px -121px;
+}
+#menu1 #com_nav a {
+	width:100px;
+	background-position:-301px top;
+}
+#menu1 #com_nav a:hover {
+	background-position:-301px -121px;
+}
+#menu1 #rec_nav a {
+	width:100px;
+	background-position:-401px top;
+}
+#menu1 #rec_nav a:hover {
+	background-position:-401px -121px;
+}
+#menu1 #con_nav a {
+	width:102px;
+	background-position:-501px top;
+}
+#menu1 #con_nav a:hover {
+	background-position:-501px -121px;
+}
+/* ▼フッターナビゲーション */
+#menu2 {
+	float:left;
+	margin:0 0 0 5px;
+	text-align:left;
+}
+#menu2 li.fotli {
+	float: left;
+	width:106px;
+	padding:0 0 0 12px;
+	list-style-type:none;
+	border-right:1px #999 solid;
+}
+#menu2 a.fotli {
+	margin:0;
+	overflow: hidden;
+	color:#333;
+	text-decoration:none;
+}
+#menu2 a.fotli:hover {
+	color:#888;
+	text-decoration:underline;
+}
+#menu2 li li {
+	list-style-type:none;
+	padding:4px 0 0 5px;
+	font-size:0.8em;
+	text-indent:-0.8em;
+	line-height:1;
+}
+#menu2 li li a {
+	color:#555;
+	text-decoration:none;
+}
+#menu2 li li a:hover {
+	color:#888;
+	text-decoration:underline;
+}
+#menu2 li li li {
+	padding-left:10px;
+	font-size:1em;
+}
+#menu2 ul.ulul {
+	padding:2px 0 0 0;
+}
+#menu2 li#jigyo_list {
+	width:130px;
+}
+/* ▼フッター */
+#footer {
+	width:100%;
+	background:url(../images/footer_line.gif) center top no-repeat;
+	padding-top:50px;
+	margin-top:10px;
+	font-size:0.8em;
+}
+#footer div {
+	width: 940px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	text-align: center;
+	padding:0 10px;
+}
+#footer img {
+	-ms-interpolation-mode: bicubic;
+	padding:0 0 10px 0;
+}
+#footer div p {
+	margin: 0;
+	float:left;
+	text-align:left;
+	width:190px;
+	/width:180px;
+	border-right:1px #999 solid;
+}
+#footer p#copy {
+	margin:20px 0;
+}
+#footer p#copy a {
+	text-decoration:underline;
+	color:#000;
+}
+/* 上に戻るボタンCSS */
+#takeMeUpContainer {
+	bottom:15px;
+	display:block;
+	font-size:13px;
+	font-weight:bold;
+	/* padding:7px 7px 7px 10px; */
+	position:fixed;
+	text-decoration:none;
+	cursor: pointer;
+	z-index:1000000;right:15px;
+	color:#555;
+}

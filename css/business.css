@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ▼事業内容 */
+.content_left {
+	float:left;
+	margin-bottom:30px;
+	height:110px;
+}
+.content_left .kadomaru {
+	margin-bottom:10px;
+	width:460px;
+}
+.content_left h4 {
+	padding:5px 5px 5px 10px;
+	font-size:1.2em;
+}
+.content_left h4 span {
+	font-weight:normal;
+	font-size:0.8em;
+}
+.content_left h4 span img { margin-right:5px }
+.content_left p {
+	padding:0 0 0 10px;
+	width:450px;
+	line-height:1.5;
+}
+.img_right {
+	float:right;
+	display:block;
+	border:#CCC 5px solid
+}
+a.jigyo_a:hover img { border-color:#09F; }
+/* ▼角丸ボックスCSS */
+.spiffy { display:block }
+.spiffy * {
+	display:block;
+	height:1px;
+	overflow:hidden;
+	font-size:.01em;
+	background:#EAEAEA
+}
+.spiffy1 {
+	margin-left:3px;
+	margin-right:3px;
+	padding-left:1px;
+	padding-right:1px;
+	border-left:1px solid #f5f5f5;
+	border-right:1px solid #f5f5f5;
+	background:#efefef
+}
+.spiffy2 {
+	margin-left:1px;
+	margin-right:1px;
+	padding-right:1px;
+	padding-left:1px;
+	border-left:1px solid #fcfcfc;
+	border-right:1px solid #fcfcfc;
+	background:#ededed
+}
+.spiffy3 {
+	margin-left:1px;
+	margin-right:1px;
+	border-left:1px solid #ededed;
+	border-right:1px solid #ededed;
+}
+.spiffy4 {
+	border-left:1px solid #f5f5f5;
+	border-right:1px solid #f5f5f5
+}
+.spiffy5 {
+	border-left:1px solid #efefef;
+	border-right:1px solid #efefef
+}
+.spiffyfg { background:#EAEAEA }

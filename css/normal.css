@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* indexを含まないページ共通スタイルシート */
+
+
+/* ▼メインコンテンツ */
+#bar1, #bar4 {
+	float:left;
+	text-align:inter-idograph;
+	text-align:justify;
+	padding-top:10px;
+	padding-bottom:20px;
+	font-size:0.9em;
+}
+/* ▼左カラム（メインカラム） */
+#bar1 {
+	width:686px;
+	padding-right:26px;
+	padding-left:13px;
+}
+#bar1 h3 {
+	font-size:1.3em;
+	padding:0 5px 5px 5px;
+	letter-spacing:2px;
+}
+#bar1 #jaguarbanner { background-image:url(../images/jaguar2.gif); }
+#bar1 #hpbanner { background-image:url(../images/hpbanner.jpg); }
+#bar1 #randbanner { background-image:url(../images/randbanner.jpg); }
+/* ▼右カラム（サブカラム） */
+#bar4 {
+	width:200px;
+	paddin-right:13px;
+	font-size:0.8em;
+}
+#bar4 p {
+	text-align:left;
+	padding:5px 3px 10px 3px;
+	border-bottom:1px #333 dotted;
+	margin:0 0 5px 0;
+}
+#bar4 a.roll { padding-top:100px; }
+#bar4 a.roll:hover { background-position:0 -100px; }
+#bar4 a#en { background-image:url(../images/enbanner.jpg); }
+#bar4 a#en:hover  { background-position:0 -96px; }
+#bar4 #shinsotu { background-image:url(../images/shinsotu.jpg); }
+#bar4 #intern { background-image:url(../images/internb.jpg); }
+#bar4 #arbeit { background-image:url(../images/arbeit.jpg); }
+/* ▼topicPath　パンくずリスト */
+ol#topicPath {
+	margin:0 0 10px 0;
+	padding: 0;
+	font-size: 90%;
+	list-style: none;
+}
+ol#topicPath li {
+	float: left;
+	padding-right: 7px;
+	padding-left: 10px;
+	background: url(../images/ico01.gif) no-repeat 0 50%;
+}
+ol#topicPath li.home {
+	padding-left: 0;
+	background: none;
+}
+ol#topicPath li a:link, ol#topicPath li a:visited {  }
+ol#topicPath li a:hover, ol#topicPath li a:active {
+}
+/* ▼本文用 */
+div.paragraph {
+	padding:0 0 5px 0;
+	margin:0 0 10px 8px;
+	border-bottom:1px #000 dotted;
+}
+#bar1 div.paragraph h3.gray {
+	margin:15px 0 15px 0;
+	display:block;
+	background-image:url(../images/komidashi.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	padding:13px 0 0 18px;
+	font-size:1.4em;
+	color:#333;
+}
+#container #maincontents #bar1 h3.gray {
+	margin:15px 0 15px 0;
+	display:block;
+	background-image:url(../images/komidashi.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	padding:13px 0 0 18px;
+	font-size:1.4em;
+	color:#333;
+}
+#bar1 div.paragraph h3.first { margin:0 0 15px 0; }
+#bar1 div.paragraph h3.blue {
+	margin:15px 0 15px 0;
+	display:block;
+	background-image:url(../images/komidashi_blue.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	padding:13px 0 0 18px;
+	font-size:1.4em;
+	color:#333;
+}
+div.paragraph p {
+	padding:0 15px 10px 15px;
+	line-height:1.7;
+	color:#555;
+}
+p.message { padding:20px 0 25px 20px; line-height:1.5; }
+p.message span { color:red }
+
+
+
+
+
+
+

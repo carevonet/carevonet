@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* index専用スタイルシート */
+/**base**/
+*{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 11.5px;
+}
+
+
+/* ▼メインコンテンツ */
+#maincontents { background:url(../images/line.gif) no-repeat bottom; }
+/* ▼メイン画像 */
+#mainvisual {
+	position:relative;
+	height:264px;
+	width:940px;
+}
+#mainvisual img#mainwaku { position:absolute; }
+#mainvisual img#mainvisualimg {
+	position:absolute;
+	left: 5px;
+	top: 0px;
+}
+#mc_title { margin:10px 0 4px; }
+#maincontents {
+	padding-top: 0;
+	margin-top: 0;
+}
+#bar1, #bar2, #bar3, #bar4 {
+	float:left;
+	text-align:inter-idograph;
+	text-align:justify;
+	padding-top:19px;
+	padding-bottom:20px;
+	font-size:0.8em;
+}
+#bar1 {
+	width:200px;
+	padding-right:26px;
+	padding-left:14px;
+}
+#bar2 {
+	width:216px;
+	padding-right:28px;
+}
+#bar3 {
+	width:214px;
+	padding-right:28px;
+}
+#bar4 {
+	width:200px;
+	paddin-right:12px;
+}
+#bar1 a { margin:10px 0; }
+#bar1 h3 {
+	font-size:14px;
+	padding:2px 0 4px 13px;
+	color:#660797;
+	background-image:url(../images/arrow.gif);
+	background-position:0 5px;
+	background-repeat:no-repeat;
+}
+#bar1 h4 {
+	font-weight:normal;
+	font-size:0.7em;
+	color:#666;
+	padding:0 4px;
+}
+#bar1 p {
+	padding:5px 4px 8px 4px;
+	border-bottom:1px #000 dotted;
+	margin-bottom:8px;
+}
+#bar1 p.last {
+	border-bottom:none;
+	margin-bottom:0;
+}
+#bar1 #carevocarsharebanner { background-image:url(../images/carevocarshare.jpg); }
+#bar1 #jaguarbuybanner { background-image:url(../images/buy_jaguar2.jpg); }
+#bar1 #jaguarbanner { background-image:url(../images/jaguar2.gif); }
+#bar1 #hpbanner { background-image:url(../images/hpbanner.jpg); }
+#bar1 #randbanner { background-image:url(../images/randbanner.jpg); }
+#bar1 #porschebanner { background-image:url(../images/porsche.jpg); }
+#bar1 #benzbanner { background-image:url(../images/benz.jpg); }
+#bar1 #ferraribanner { background-image:url(../images/ferrari.jpg); }
+#bar1 #ferrari2banner { background-image:url(../images/ferrari2.jpg); }
+#bar1 #volksbanner { background-image:url(../images/volks.jpg); }
+#bar2 dt {
+	font-weight:bold;
+	color:#d77a0c;
+	margin-top:8px;
+}
+#bar2 dd {
+	padding:2px 0 4px 10px;
+	border-bottom:1px #999 dotted;
+}
+#bar2 p {
+	text-align:left;
+	padding:5px 3px 10px 3px;
+	border-bottom:1px #333 dotted;
+	margin:0 0 5px 0;
+}
+#bar3 p, #bar4 p {
+	padding:0 4px 8px 4px;
+	border-bottom:1px #666 dotted;
+	margin-bottom:8px;
+}
+#bar3 a.roll {
+	padding-top:100px;
+	margin:0 0 5px 7px;
+}
+#bar4 a.roll {
+	padding-top:100px;
+	margin:0 0 5px 0;
+}
+#bar3 a.roll:hover, #bar4 a.roll:hover { background-position:0 -100px; }
+#bar3 #en { background-image:url(../images/enbanner.jpg); }
+#bar3 a.roll#en:hover { background-position:0 -96px; }
+#bar3 #shinsotu { background-image:url(../images/shinsotu.jpg); }
+#bar3 #intern { background-image:url(../images/internb.jpg); }
+#bar3 #arbeit { background-image:url(../images/arbeit.jpg); }
+#bar4 div#midashi {
+	position:relative;
+	height:50px;
+}
+#bar4 h3 {
+	text-align:center;
+	position:absolute;
+	left: 6px;
+	top: 2px;
+	font-size:18px;
+	z-index:100;
+	letter-spacing:2px;
+}
+#bar4 #left_quote {
+	position:absolute;
+	left: -5px;
+	top: 15px;
+	z-index:1;
+	border:none;
+}
+#bar4 #right_quote {
+	position:absolute;
+	left: 189px;
+	top: -10px;
+	z-index:2;
+	border:none;
+}
+#bar4 #un { background-image:url(../images/unblog.jpg); }
+#bar4 #jin { background-image:url(../images/jinblog.jpg) }
+#bar4 img { border:1px solid #666; }
+#bar4 a:hover img { border:1px solid #BBB; }
+
+.btm{margin:0 0 5px 7px;
+}
