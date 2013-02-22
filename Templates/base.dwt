@@ -90,7 +90,7 @@
   
     <!-- ▼右カラム(id=bar4) -->
     <div id="bar4">
-    <a href="http://enjapan2014.com/companyView/top.cfm?RecruitmentID=200383" class="roll" id="en" target="_blank">エンジャパン2014エントリー受付</a>
+    <a href="http://enjapan2014.com/companyView/top.cfm?RecruitmentID=200383" target="_blank"><img src="images/ent195-35.gif" style="margin: 0 0 5px 3px;;"></a>
       <p>2014年度新卒採用中です！まずはエンジャパンよりエントリーをお願い致します。</p>
       <a href="../jobs-recruit.html" class="roll" id="shinsotu">新卒採用</a>
       <p>若い力を募集しております。詳しくはこちら。</p>

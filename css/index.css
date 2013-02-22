@@ -114,7 +114,7 @@
 	margin:0 0 5px 0;
 }
 #bar3 a.roll:hover, #bar4 a.roll:hover { background-position:0 -100px; }
-#bar3 #en { background-image:url(../images/enbanner.jpg); }
+#bar3 #en { background-image:url(../images/ent195-35.gif); width:195px; height:35px; }
 #bar3 a.roll#en:hover { background-position:0 -96px; }
 #bar3 #shinsotu { background-image:url(../images/shinsotu.jpg); }
 #bar3 #intern { background-image:url(../images/internb.jpg); }
